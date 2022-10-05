@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <style type="text/css">
+        .skew .textbox {
+            margin-left: 75px;
+            background: lightgreen;
+            height: 100px;
+            width: 200px;
+            padding: 25px 0;
+            text-align: center;
+            font-size: 250%;
+            border: 3px solid darkgreen;
+            border-radius: 15px;
+            animation: skew 3s infinite linear alternate;
+        }
+
+
+
+        @keyframes skew {
+            from {
+                -webkit-transform: skewY(0deg);
+            }
+
+            12.5% {
+                -webkit-transform: skewY(30deg);
+            }
+
+            25% {
+                -webkit-transform: skewY(0deg);
+            }
+
+            37.5% {
+                -webkit-transform: skewY(-30deg);
+            }
+
+            50% {
+                -webkit-transform: skewY(0deg);
+            }
+
+            62.5% {
+                -webkit-transform: skewX(30deg);
+            }
+
+            75% {
+                -webkit-transform: skewX(0deg);
+            }
+
+            87.5% {
+                -webkit-transform: skewX(-30deg);
+            }
+
+            to {
+                -webkit-transform: skewX(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="location.href='../../index.html#indice'">Regresar</button>
+    <div class="box skew">
+        <div class="textbox">Inclinar texto</div>
+    </div>
+</body>
+
+</html>

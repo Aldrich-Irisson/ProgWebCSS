@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Ejemplo10 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+    <style type="text/css">
+        #portada {
+            position: relative;
+            margin: 0 auto;
+        }
+        #portada img {
+            position: absolute;
+            left: 0;
+            -webkit-transition: opacity 3s linear;
+            transition: opacity 3s linear;
+        }
+
+        #portada img.top:hover {
+            opacity: 0;
+            position: absolute;
+            
+        }
+    </style>
+</head>
+
+<body>
+<button onclick="location.href='../../index.html#indice'">Regresar</button>
+    <div id="portada">
+        <img class="bottom" src="Invierno.jpg" alt="Otoño1">
+        <img class="top" src="Otoño1.jpg" alt="Verano">
+        <img class="top" src="Primavera.jpg" alt="Primavera">
+    </div>
+</body>
+
+</html>

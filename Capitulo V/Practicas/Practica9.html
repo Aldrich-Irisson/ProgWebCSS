@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <style type="text/css">
+        div {
+            width: 250px;
+            height: 250px;
+            margin-left: 87px;
+            margin-top: 80px;
+            position: absolute;
+            border: 5px solid black;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            animation: movingimage linear 5s 1s infinite;
+        }
+
+        @keyframes movingimage {
+            0% {
+
+                left: 50px;
+                top: 50px;
+            }
+
+            25% {
+
+                left: 50px;
+                top: 300px;
+            }
+
+            50% {
+
+                left: 300px;
+                top: 300px;
+            }
+
+            75% {
+
+                left: 300px;
+                top: 50px;
+            }
+
+            100% {
+
+                left: 50px;
+                top: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="location.href='../../index.html#indice'">Regresar</button>
+    <div></div>
+    <p><img src="Cuadrado.gif" alt=""></p>
+</body>
+
+</html>
